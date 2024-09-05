@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container {
+    background-image: url(stantion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 600px;
+    min-height: 500px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.interactiv-part {
+    padding-top: 150px;
+    border: 3px solid;
+    width: 40%;
+    background-color: rgba(169, 178, 154, 0.8);
+    position: relative;
+    font-size: 16px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 200px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
